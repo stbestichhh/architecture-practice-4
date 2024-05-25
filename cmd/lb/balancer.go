@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"time"
+	"hash/fnv"
 
 	"github.com/roman-mazur/architecture-practice-4-template/httptools"
 	"github.com/roman-mazur/architecture-practice-4-template/signal"
